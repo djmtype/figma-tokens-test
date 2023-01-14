@@ -5,49 +5,49 @@
       "type": "dimension"
     },
     "xs": {
-      "value": 4,
+      "value": "4px",
       "type": "dimension"
     },
     "sm": {
-      "value": 8,
+      "value": "8px",
       "type": "dimension"
     },
     "md": {
-      "value": 16,
+      "value": "16px",
       "type": "dimension"
     },
     "lg": {
-      "value": 32,
+      "value": "32px",
       "type": "dimension"
     },
     "xl": {
-      "value": 64,
+      "value": "64px",
       "type": "dimension"
     }
   },
   "spacing": {
     "xs": {
-      "value": 4,
+      "value": "4px",
       "type": "spacing"
     },
     "sm": {
-      "value": 8,
+      "value": "8px",
       "type": "spacing"
     },
     "md": {
-      "value": 16,
+      "value": "16px",
       "type": "spacing"
     },
     "lg": {
-      "value": 32,
+      "value": "32px",
       "type": "spacing"
     },
     "xl": {
-      "value": 64,
+      "value": "64px",
       "type": "spacing"
     },
     "multi-value": {
-      "value": "8 64",
+      "value": "8px 64px",
       "type": "spacing",
       "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
     }

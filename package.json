@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "tt": "token-transformer ./tokens/tokens.json ./tokens/tokens-build.json --expandTypography=true core",
-    "sd": "style-dictionary build --config ./sd.config.jsonc"
+    "sd": "style-dictionary build --config ./sd.config.js"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.2",
