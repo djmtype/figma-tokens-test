@@ -1,0 +1,15 @@
+{
+  "source": ["tokens/tokens-build.json"],
+  "platforms": {
+    "css": {
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/px", "font/px"],
+      // "transformGroup": "css",
+			// "transforms": ["attribute/cti", "color/rgb"],
+      "buildPath": "assets/css/",
+      "files": [{
+        "destination": "style.css",
+        "format": "css/variables"
+      }]
+    }
+  }
+}

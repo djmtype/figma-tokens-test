@@ -6,9 +6,15 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tt": "token-transformer ./tokens/tokens.json ./tokens/tokens-build.json --expandTypography=true core",
+    "sd": "style-dictionary build --config ./sd.config.jsonc"
   },
   "devDependencies": {
+    "style-dictionary": "^3.7.2",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "token-transformer": "^0.0.29"
   }
 }
