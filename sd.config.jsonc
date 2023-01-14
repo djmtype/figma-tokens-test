@@ -2,7 +2,7 @@
   "source": ["tokens/tokens-build.json"],
   "platforms": {
     "css": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/px", "font/px"],
+      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4", "size/px"],
       // "transformGroup": "css",
 			// "transforms": ["attribute/cti", "color/rgb"],
       "buildPath": "assets/css/",

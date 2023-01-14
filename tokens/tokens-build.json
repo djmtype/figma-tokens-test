@@ -25,7 +25,7 @@
       "type": "dimension"
     }
   },
-  "size": {
+  "spacing": {
     "xs": {
       "value": 4,
       "type": "spacing"
@@ -71,7 +71,7 @@
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
     }
   },
-  "color": {
+  "colors": {
     "black": {
       "value": "#000000",
       "type": "color"
@@ -537,45 +537,45 @@
       "type": "fontWeights"
     }
   },
-  "font": {
+  "fontSizes": {
     "scale": {
       "value": 1.25,
       "type": "fontSizes"
     },
     "h1": {
-      "value": 48.829,
+      "value": "48.828125px",
       "type": "fontSizes"
     },
     "h2": {
-      "value": 39.063,
+      "value": "39.0625px",
       "type": "fontSizes"
     },
     "h3": {
-      "value": 31.25,
+      "value": "31.25px",
       "type": "fontSizes"
     },
     "h4": {
-      "value": 25,
+      "value": "25px",
       "type": "fontSizes"
     },
     "h5": {
-      "value": 20,
+      "value": "20px",
       "type": "fontSizes"
     },
     "h6": {
-      "value": 16,
+      "value": "16px",
       "type": "fontSizes"
     },
     "body": {
-      "value": 16,
+      "value": "16px",
       "type": "fontSizes"
     },
     "sm": {
-      "value": 12.8,
+      "value": "12.8px",
       "type": "fontSizes"
     },
     "xs": {
-      "value": 10.24,
+      "value": "10.24px",
       "type": "fontSizes"
     }
   }
