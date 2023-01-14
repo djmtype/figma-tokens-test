@@ -1,11 +1,13 @@
 lockfileVersion: 5.4
 
 specifiers:
+  expr-eval: ^2.0.2
   style-dictionary: ^3.7.2
   token-transformer: ^0.0.29
   vite: ^4.0.0
 
 dependencies:
+  expr-eval: 2.0.2
   token-transformer: 0.0.29
 
 devDependencies:
@@ -353,6 +355,10 @@ packages:
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
     engines: {node: '>=6'}
+    dev: false
+
+  /expr-eval/2.0.2:
+    resolution: {integrity: sha512-4EMSHGOPSwAfBiibw3ndnP0AvjDWLsMvGOvWEZ2F96IGk0bIVdjQisOHxReSkE13mHcfbuCiXw+G4y0zv6N8Eg==}
     dev: false
 
   /fs-extra/10.1.0:

@@ -5,49 +5,49 @@
       "type": "dimension"
     },
     "xs": {
-      "value": "4px",
+      "value": 4,
       "type": "dimension"
     },
     "sm": {
-      "value": "8px",
+      "value": 8,
       "type": "dimension"
     },
     "md": {
-      "value": "16px",
+      "value": 16,
       "type": "dimension"
     },
     "lg": {
-      "value": "32px",
+      "value": 32,
       "type": "dimension"
     },
     "xl": {
-      "value": "64px",
+      "value": 64,
       "type": "dimension"
     }
   },
   "spacing": {
     "xs": {
-      "value": "4px",
+      "value": 4,
       "type": "spacing"
     },
     "sm": {
-      "value": "8px",
+      "value": 8,
       "type": "spacing"
     },
     "md": {
-      "value": "16px",
+      "value": 16,
       "type": "spacing"
     },
     "lg": {
-      "value": "32px",
+      "value": 32,
       "type": "spacing"
     },
     "xl": {
-      "value": "64px",
+      "value": 64,
       "type": "spacing"
     },
     "multi-value": {
-      "value": "8px 64px",
+      "value": "8 64",
       "type": "spacing",
       "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens"
     }
@@ -543,39 +543,39 @@
       "type": "fontSizes"
     },
     "h1": {
-      "value": "48.828125px",
+      "value": 48.829,
       "type": "fontSizes"
     },
     "h2": {
-      "value": "39.0625px",
+      "value": 39.063,
       "type": "fontSizes"
     },
     "h3": {
-      "value": "31.25px",
+      "value": 31.25,
       "type": "fontSizes"
     },
     "h4": {
-      "value": "25px",
+      "value": 25,
       "type": "fontSizes"
     },
     "h5": {
-      "value": "20px",
+      "value": 20,
       "type": "fontSizes"
     },
     "h6": {
-      "value": "16px",
+      "value": 16,
       "type": "fontSizes"
     },
     "body": {
-      "value": "16px",
+      "value": 16,
       "type": "fontSizes"
     },
     "sm": {
-      "value": "12.8px",
+      "value": 12.8,
       "type": "fontSizes"
     },
     "xs": {
-      "value": "10.24px",
+      "value": 10.24,
       "type": "fontSizes"
     }
   }

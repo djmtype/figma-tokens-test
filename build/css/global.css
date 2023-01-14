@@ -1,25 +1,25 @@
 /**
  * Do not edit directly
- * Generated on Sat, 14 Jan 2023 18:31:44 GMT
+ * Generated on Sat, 14 Jan 2023 23:15:04 GMT
  */
 
 :root {
-  --dimension-scale: 2;
-  --dimension-xs: 4;
-  --dimension-sm: 8;
-  --dimension-md: 16;
-  --dimension-lg: 32;
-  --dimension-xl: 64;
-  --spacing-xs: 4;
-  --spacing-sm: 8;
-  --spacing-md: 16;
-  --spacing-lg: 32;
-  --spacing-xl: 64;
-  --spacing-multi-value: 8 64;
-  --border-radius-sm: 4;
-  --border-radius-lg: 8;
-  --border-radius-xl: 16;
-  --border-radius-multi-value: 4 8;
+  --dimension-scale: 0.13rem;
+  --dimension-xs: 0.25rem;
+  --dimension-sm: 0.50rem;
+  --dimension-md: 1.00rem;
+  --dimension-lg: 2.00rem;
+  --dimension-xl: 4.00rem;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.50rem;
+  --spacing-md: 1.00rem;
+  --spacing-lg: 2.00rem;
+  --spacing-xl: 4.00rem;
+  --spacing-multi-value: NaNrem;
+  --border-radius-sm: 0.25rem;
+  --border-radius-lg: 0.50rem;
+  --border-radius-xl: 1.00rem;
+  --border-radius-multi-value: NaNrem;
   --colors-black: #000000;
   --colors-white: #ffffff;
   --colors-gray-100: #f7fafc;
@@ -128,18 +128,14 @@
   --font-weights-heading-bold: Bold;
   --font-weights-body-regular: Regular;
   --font-weights-body-bold: Bold;
-  --font-sizes-scale: 1.25;
-  --font-sizes-h1: 48.828125px;
-  --font-sizes-h2: 39.0625px;
-  --font-sizes-h3: 31.25px;
-  --font-sizes-h4: 25px;
-  --font-sizes-h5: 20px;
-  --font-sizes-h6: 16px;
-  --font-sizes-body: 16px;
-  --font-sizes-sm: 12.8px;
-  --font-sizes-xs: 10.24px;
-}
-
-body {
-  font-size: var(--font-sizes-h2);
+  --font-sizes-scale: 0.08rem;
+  --font-sizes-h1: 3.05rem;
+  --font-sizes-h2: 2.44rem;
+  --font-sizes-h3: 1.95rem;
+  --font-sizes-h4: 1.56rem;
+  --font-sizes-h5: 1.25rem;
+  --font-sizes-h6: 1.00rem;
+  --font-sizes-body: 1.00rem;
+  --font-sizes-sm: 0.80rem;
+  --font-sizes-xs: 0.64rem;
 }

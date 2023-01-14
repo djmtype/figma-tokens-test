@@ -8,13 +8,16 @@
     "build": "vite build",
     "preview": "vite preview",
     "tt": "token-transformer ./tokens/tokens.json ./tokens/tokens-build.json --expandTypography=true core",
-    "sd": "style-dictionary build --config ./sd.config.js"
+    "sd-json": "style-dictionary build --config ./sd.config.jsonc",
+    "bundle": "npm run translate:token && node bundle.cjs ",
+    "translate:token": "token-transformer tokens/tokens.json build/tokens/parsed-tokens.json core"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.2",
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "expr-eval": "^2.0.2",
     "token-transformer": "^0.0.29"
   }
 }
