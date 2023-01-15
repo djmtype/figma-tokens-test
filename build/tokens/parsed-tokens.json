@@ -2,27 +2,27 @@
   "dimension": {
     "scale": {
       "value": 2,
-      "type": "dimension"
+      "type": "sizing"
     },
     "xs": {
       "value": 4,
-      "type": "dimension"
+      "type": "sizing"
     },
     "sm": {
       "value": 8,
-      "type": "dimension"
+      "type": "sizing"
     },
     "md": {
       "value": 16,
-      "type": "dimension"
+      "type": "sizing"
     },
     "lg": {
       "value": 32,
-      "type": "dimension"
+      "type": "sizing"
     },
     "xl": {
       "value": 64,
-      "type": "dimension"
+      "type": "sizing"
     }
   },
   "spacing": {
@@ -71,7 +71,7 @@
       "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values"
     }
   },
-  "colors": {
+  "color": {
     "black": {
       "value": "#000000",
       "type": "color"

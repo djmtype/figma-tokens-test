@@ -28,13 +28,13 @@ const StyleDictionary = require('style-dictionary').extend({
     }
 });
 
-StyleDictionary.registerTransform({
-    name: "sizeToPx",
-    type: "value",
-    transitive: true,
-    matcher: (token) => ["fontSizes", "dimension", "borderRadius", "spacing"].includes(token.type),
-    transformer: (token) => transformDimension(token.value),
-  });
+// StyleDictionary.registerTransform({
+//     name: "sizeToPx",
+//     type: "value",
+//     transitive: true,
+//     matcher: (token) => ["fontSizes", "dimension", "borderRadius", "spacing"].includes(token.type),
+//     transformer: (token) => transformDimension(token.value),
+//   });
 
   StyleDictionary.registerTransform({
     name: 'transformPxToRem',
@@ -43,7 +43,7 @@ StyleDictionary.registerTransform({
     //   return token.unit === 'pixel' && token.value !== 0
     // },
       matcher: (token) =>
-      ["fontSizes", "dimension", "borderRadius", "spacing"].includes(token.type),
+      ["fontSizes", "dimension", "borderRadius", "spacing", "sizing"].includes(token.type),
   
     // transformer: token => {
     //   return `${token.original.value / 16}rem`
@@ -63,8 +63,36 @@ StyleDictionary.registerTransform({
     transformer: (token) => `${token.value}px`,
   });
 
+//   StyleDictionary.registerTransform({
+//     name: 'colorToHsl',
+//     type: 'value',
+//     matcher: (token)  => ["color"].includes(token.type),
+//     //   return token.attributes.category === "color";
+//     transformer: (token) => token.original.value
+    
+// });
+
+StyleDictionary.registerTransform({
+    name: 'colorHsl', 
+    type: 'value',
+    matcher: (token) =>  ["color"].includes(token.type),
+    transformer: (token) =>  token.value.hsl()
+    });
+
+
+
+    StyleDictionary.registerTransform({
+        name: 'hexARGB',
+        type: 'value',
+        matcher: (token) => ["color"].includes(token.type),
+        
+        transformer: (token) => token.value.replace(/^#/,'#FF')
+        
+      });
+
 const customTransforms = [
-    "transformPxToRem"
+    "transformPxToRem",
+    // "colorHsl"
     // "sizeToPx"
   //  "numberToPx",
     // "flattenShadow",
@@ -82,7 +110,7 @@ StyleDictionary.registerTransformGroup({
       "time/seconds",
       "content/icon",
     //  "size/rem",
-      "color/rgb",
+      "color/hsl-4",
       // custom transforms
       ...customTransforms,
     ],

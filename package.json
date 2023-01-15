@@ -10,7 +10,7 @@
     "tt": "token-transformer ./tokens/tokens.json ./tokens/tokens-build.json --expandTypography=true core",
     "sd-json": "style-dictionary build --config ./sd.config.jsonc",
     "bundle": "npm run translate:token && node bundle.cjs ",
-    "translate:token": "token-transformer tokens/tokens.json build/tokens/parsed-tokens.json core"
+    "translate:token": "token-transformer tokens/tokens.json build/tokens/parsed-tokens.json --expandTypography=true core"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.2",
